@@ -1,4 +1,4 @@
-td /* Toutes les cellules des tableaux... */
+letd /* Toutes les cellules des tableaux... */
 {
 border: 2px solid rgba(0, 0, 0, 0.276); /* ... auront une bordure de 1px */
 }
@@ -17,19 +17,4 @@ border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli
 td
 {
 border: 1px solid rgba(0, 0, 0, 0.66);
-}
-table
-{
-border-collapse: collapse;
-}
-td, th /* Mettre une bordure sur les td ET les th */
-{
-border: 1px solid black;
-}
-table{
-    border-collapse: collapse;
-    border-spacing: 8px;
-}
-td, th{
-    padding: 8px;
 }
